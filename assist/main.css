@@ -1,3 +1,7 @@
+/*start header section */
+header{
+    padding: 28px 0;
+}
 header img{
     width: 180px;
     height: 40px;
@@ -6,3 +10,79 @@ header nav{
     font-size: 18px;
     font-family: Inter;
 }
+/*end header section */
+/*start hero section */
+.hero .textandform{
+    background-color: #5937E0;
+    padding: 78px;
+   
+}
+.imge{
+    left: calc((100% - 700px)/2) ;
+}
+.hero img{
+width: 700px;
+z-index: -1;
+}
+.hero .text{
+    width: calc((100% - 48px) *2 / 3) ;
+}
+.hero .text h1{
+    font-size: 60px;
+    font-family: Wark sans;
+
+}
+.hero .text p{
+    font-size: 16px;
+    font-family: Wark sans;
+}
+.hero .text a{
+    font-size: 16px;
+    font-family: Inter;
+    padding: 10px 28px;
+        width: fit-content;
+}
+.hero .hero-form{
+    width: calc((100% - 48px)  / 3) ;
+}
+.hero .hero-form input  {
+    background-color: #FAFAFA;
+}
+.hero-form h2{
+    text-align: center;
+    font-size: 28px;
+   padding: 30px;
+}
+.hero .hero-form select  {
+    background-color: #FAFAFA;
+}
+.hero .hero-form{
+    font-family: Work sans;
+
+}
+.hero button{
+    font-family: Inter ;
+}
+/*end hero section */
+/* start info section*/
+.info{
+    padding: 60px 0 ;
+}
+.info .cards{
+    width: calc((100% - 224px) / 3);
+}
+.info .cards img{
+    width: 64px;
+    height: 64px;
+}
+.info .cards h2{
+    font-size: 24px ;
+    font-family: Work sans ;
+    font-weight: bold;
+}
+.info .cards p {
+    text-align: center;
+    font-size: 16px ;
+    font-family: Inter ;
+}
+/* end info section */
