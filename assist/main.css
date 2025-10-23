@@ -24,9 +24,7 @@ header nav{
 width: 700px;
 z-index: -1;
 }
-.hero .text{
-    width: calc((100% - 48px) *2 / 3) ;
-}
+
 .hero .text h1{
     font-size: 60px;
     font-family: Wark sans;
@@ -42,9 +40,8 @@ z-index: -1;
     padding: 10px 28px;
         width: fit-content;
 }
-.hero .hero-form{
-    width: calc((100% - 48px)  / 3) ;
-}
+
+
 .hero .hero-form input  {
     background-color: #FAFAFA;
 }
@@ -68,12 +65,11 @@ z-index: -1;
 .info{
     padding: 60px 0 ;
 }
-.info .cards{
-    width: calc((100% - 224px) / 3);
-}
+
 .info .cards img{
     width: 64px;
     height: 64px;
+   
 }
 .info .cards h2{
     font-size: 24px ;
@@ -86,3 +82,50 @@ z-index: -1;
     font-family: Inter ;
 }
 /* end info section */
+/* start info 2 section*/
+.info2 img{
+      width: 636px;
+    height: 344px;
+}
+.info2 span {
+    font-size: 16px;
+    font-family: Work sans;
+    color: #FFFFFF;
+   
+    
+}
+.info2 div{
+  
+}
+.span{
+     width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #5937E0;
+    
+}
+.info2 h2{
+    font-size: 20px;
+    font-family: Wark sans;
+    margin-left: 10px;
+}
+.info2 p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.603);
+}
+/* end info 2 section*/
+/*start cars section*/
+.cars .cards{
+    background-color: #f7f7f7;
+    padding: 24px; 
+    flex-grow: 1;
+}
+.cars .imge img{
+    width: -webkit-fill-available;
+    height: 260px;
+}
+.cars button {
+    background-color: #5937E0;
+}
+/*end cars section*/
