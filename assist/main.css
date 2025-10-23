@@ -129,3 +129,37 @@ z-index: -1;
     background-color: #5937E0;
 }
 /*end cars section*/
+/*start beanner section*/
+.Banner .contact{
+    background-color: #5937E0;
+}
+.Banner .contact h2{
+ size: 50px;
+ font-family: Work sans;
+ text-align: center;
+}
+.Banner .contact p{
+ size: 16px;
+ font-family: Work sans;
+ text-align: center;
+}
+.fact-number{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Work sans;
+    color: black;
+}
+.fact-text{
+    font-size: 16px;
+  
+    font-family: Work sans;
+    color: rgba(0, 0, 0, 0.600);
+}
+.Banner .fact-icon{
+    background-color: #FF9E0C;
+}
+.Banner svg{
+    
+    margin-top: 10px;
+}
+/*end beanner section*/
