@@ -163,3 +163,15 @@ z-index: -1;
     margin-top: 10px;
 }
 /*end beanner section*/
+/*start app section */
+.mobile-app h2 {
+    font-size: 50px;
+    font-family: Work sans;
+    font-weight: bold;
+}
+.mobile-app p {
+    font-size: 16px;
+    font-family: Work sans;
+    color: rgba(0, 0, 0, 0.60);
+}
+/*end app section */
