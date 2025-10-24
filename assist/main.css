@@ -175,3 +175,48 @@ z-index: -1;
     color: rgba(0, 0, 0, 0.60);
 }
 /*end app section */
+/*start beanner2 section*/
+.Bannerbox {
+  background-color: #5937E0;
+  color: white;
+  border-radius: 20px;
+  padding: 40px 5px;
+   
+}
+.content h2{
+  font-weight: 700;
+  font-size: 50px;
+  font-family: Work sans;
+}
+.content p{
+  font-size: 16px;
+  font-family: Work sans;
+}
+.search-box {
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+  max-width: 380px;
+}
+.search-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 8px 15px;
+  border-radius: 50px;
+}
+.search-box button {
+  background-color: #ffb100;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.search-box button:hover {
+  background-color: #e79c00;
+}
+/*end beanner2 section*/
