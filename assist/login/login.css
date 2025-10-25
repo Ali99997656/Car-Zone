@@ -1,0 +1,51 @@
+.login{
+    font-family: Poppins;
+    height: 100dvh;
+}
+.Back-ground{
+    background-image: url(Background\ Image.webp);
+   background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.Back-ground h1{
+   position: absolute;
+   bottom: 20px;
+   color: white;
+   font-weight: bold;
+}
+
+.Back-ground span{
+    color: #501794;
+}
+.login-content{
+    background-color: #160430;
+}
+.login-content h2{
+    color: white;
+    font-size: 77.71px;
+}
+.login-content p{
+    size: 16px;
+    color: white;
+}
+.login-content input{
+    background-color: #261046;
+    outline: none;
+    border: none;
+}
+.login-content button{
+    border: none;
+    background: linear-gradient(90deg, #5a00d0, #3b8ad9);
+}   
+hr{
+    color: #727272;
+}
+.login-content span{
+    color: #9D5CE9 ;
+    font-size: 12.53px;
+
+}
+p{
+    font-size: 12.53px;
+}
