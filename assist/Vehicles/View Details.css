@@ -1,0 +1,76 @@
+header {
+  padding: 28px 0;
+}
+header img {
+  width: 180px;
+  height: 40px;
+}
+header nav {
+  font-size: 18px;
+  font-family: Inter;
+}
+header svg {
+  color: #5937e0;
+  width: 40px;
+  height: 40px;
+}
+/*start hero section*/
+.hero {
+  font-family: Work sans;
+}
+.detailes .type {
+  font-size: 40px;
+  font-weight: bold;
+}
+.detailes .price {
+  font-size: 40px;
+  color: #5937e0;
+}
+.detailes span {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.detailes .car {
+  width: -webkit-fill-available;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.card {
+  background-color: #fafafa;
+  border: none;
+  outline: none;
+}
+.card img {
+  width: 24px;
+  height: 24px;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 700;
+}
+.card span {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.CarEquipment button {
+  padding: 15.5px 106px;
+  background-color: #5937e0;
+}
+.more-detailes .Car {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 40px 0;
+}
+.more-detailes img {
+  width: 24px;
+  height: 24px;
+}
+.frame p{
+    font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+/*end hero section*/
