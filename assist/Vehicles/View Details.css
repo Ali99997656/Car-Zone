@@ -74,3 +74,23 @@ header svg {
   color: rgba(0, 0, 0, 0.6);
 }
 /*end hero section*/
+/*start cars section*/
+.cars .cards{
+    background-color: #f7f7f7;
+    padding: 24px; 
+    flex-grow: 1;
+}
+.cars .imge img{
+    width: -webkit-fill-available;
+    height: 260px;
+}
+.cars button {
+    background-color: #5937E0;
+}
+.cars .text{
+text-decoration: none;
+}
+.cards a{
+  background-color: #5937E0;
+}
+/*end cars section*/
