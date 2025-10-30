@@ -32,7 +32,16 @@ header svg{
   font-size: 16px;
 
 }
-/* Video section */
-.video-section {
-  background-color: #f9f9f9;
+
+.stats-section .num {
+  font-size: 80px;
+  font-weight: bold;
+  color: #5937E0;
+  font-family: Work Sans;
 }
+.stats-section .text {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Work Sans;
+}
+
