@@ -32,7 +32,7 @@ header svg{
   font-size: 16px;
 
 }
-
+/*strat stats-section*/
 .stats-section .num {
   font-size: 80px;
   font-weight: bold;
@@ -43,5 +43,30 @@ header svg{
   font-size: 20px;
   font-weight: bold;
   font-family: Work Sans;
+}
+/*strat info-section*/
+.info h2 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Work Sans;
+}
+.info span {
+  font-size: 16px;
+  
+  color: rgba(0, 0, 0, 0.60);
+  font-family: Work Sans;
+}
+.text img {
+  width: 24px;
+  height: 24px;
+}
+.info p {
+  font-size: 16px;
+  
+  color: rgba(0, 0, 0, 0.60);
+  font-family: Work Sans;
+}
+.info .imge img{
+    width: -webkit-fill-available;
 }
 
