@@ -173,3 +173,43 @@ header svg {
   font-family: Inter;
   width: 100px;
 }
+/*start footer sectioin*/
+.col .icon{
+    background-color: #ffb100;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 5px ;
+}
+.footer span{
+    font-size: 15px;
+    font-family: Work sans;
+}
+.footer address{
+    font-size: 16px;
+    font-family: Work sans;
+    font-weight:bold ;
+}
+.footer p{
+    font-size: 16px;
+    font-family: Work sans;
+    font-weight:bold ;
+}
+.footer ul{
+    padding: 0;
+    margin: 0;
+}
+.footer h2{
+    font-family: Work sans;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer li{
+    font-family: Work sans;
+    font-size: 16px;
+}
+.footer a{
+    text-decoration: none;
+    color: #5937E0;
+}
+/*end footer sectioin*/
