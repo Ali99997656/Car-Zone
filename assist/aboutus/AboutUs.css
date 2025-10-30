@@ -73,15 +73,15 @@ header svg {
   background-color: #5937e0;
   color: white;
 }
-.app-section .position-absolute{
-    top: -100px;
-    height: 500px;
-    left: 50px;
+.app-section .position-absolute {
+  top: -100px;
+  height: 500px;
+  left: 50px;
 }
-.app-section h2{
-    font-size: 50px;
-    font-family: Work sans;
-    font-weight: bold;
+.app-section h2 {
+  font-size: 50px;
+  font-family: Work sans;
+  font-weight: bold;
 }
 .app-section p {
   font-size: 16px;
@@ -95,7 +95,6 @@ header svg {
 }
 /* Reviews Section */
 
-
 .review-card {
   border-radius: 15px;
   overflow: hidden;
@@ -103,12 +102,9 @@ header svg {
   display: flex;
   flex-direction: column;
   height: 100%;
- outline: none;
- border: none;
+  outline: none;
+  border: none;
 }
-
-
-
 
 .quote-icon {
   font-size: 80px;
@@ -130,13 +126,50 @@ header svg {
   border-radius: 50%;
   border: 2px solid white;
 }
-.quastion h2{
-    font-size: 50px;
-    font-family: Work sans;
+.quastion h2 {
+  font-size: 50px;
+  font-family: Work sans;
 }
-.quastion button{
-    font-size: 24px;
-    font-family: Work sans;
-    font-weight: 500;
+.quastion button {
+  font-size: 24px;
+  font-family: Work sans;
+  font-weight: 500;
+}
+/*start hero section */
+.hero .textandform {
+  background-color: #5937e0;
+  padding: 78px;
+}
+.imgee {
+  right:  50px;
+  top: 50px;
+}
+.hero img {
+  width: 700px;
+  z-index: -1;
 }
 
+.hero .text h1 {
+  font-size: 60px;
+  font-family: Wark sans;
+}
+
+.hero .text p {
+  font-size: 16px;
+  font-family: Wark sans;
+}
+
+
+.hero h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.hero span {
+  font-size: 40px;
+  font-weight: 500;
+}
+.hero a {
+  font-size: 16px;
+  font-family: Inter;
+  width: 100px;
+}
