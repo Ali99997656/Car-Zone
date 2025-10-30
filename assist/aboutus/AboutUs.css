@@ -16,3 +16,19 @@ header svg{
     height: 40px;
 }
 /*end header section */
+/*start About section */
+.text-q{
+  font-family: Work sans;
+  font-size: 50px;
+  font-weight: bold;
+}
+.about-section  span {
+  font-family: Work sans;
+  font-size: 28px;
+  font-weight: 700;
+}
+.about-section .col  p {
+  font-family: Inter;
+  font-size: 16px;
+
+}
