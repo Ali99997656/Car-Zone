@@ -93,3 +93,50 @@ header svg {
 .app-section .text-start img:hover {
   transform: scale(1.05);
 }
+/* Reviews Section */
+
+
+.review-card {
+  border-radius: 15px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+ outline: none;
+ border: none;
+}
+
+
+
+
+.quote-icon {
+  font-size: 80px;
+  color: #5937e0;
+  margin-bottom: 10px;
+}
+
+.review-footer {
+  background: #5937e0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+.review-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.quastion h2{
+    font-size: 50px;
+    font-family: Work sans;
+}
+.quastion button{
+    font-size: 24px;
+    font-family: Work sans;
+    font-weight: 500;
+}
+
