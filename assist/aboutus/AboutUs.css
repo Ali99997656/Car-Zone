@@ -1,0 +1,18 @@
+/*start header section */
+header{
+    padding: 28px 0;
+}
+header img{
+    width: 180px;
+    height: 40px;
+}
+header nav{
+    font-size: 18px;
+    font-family: Inter;
+}
+header svg{
+    color: #5937E0;
+    width: 40px;
+    height: 40px;
+}
+/*end header section */
