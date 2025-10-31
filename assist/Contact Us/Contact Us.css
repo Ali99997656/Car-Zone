@@ -1,0 +1,136 @@
+/*start header section */
+header{
+    padding: 28px 0;
+}
+header img{
+    width: 180px;
+    height: 40px;
+}
+header nav{
+    font-size: 18px;
+    font-family: Inter;
+}
+header svg{
+    color: #5937E0;
+    width: 40px;
+    height: 40px;
+}
+/*end header section */
+/*start hero section */
+.hero .hero-form{
+    background-color: #5937E0;
+    width: 416px;
+    height: 503px;
+}
+.hero .hero-form input  {
+    background-color: #694BE3;
+    color: white;
+}
+.hero-form h2{
+    text-align: center;
+    font-size: 28px;
+   padding: 30px;
+}
+.hero .hero-form select  {
+    background-color: #694BE3;
+    color: white;
+}
+.hero .hero-form{
+    font-family: Work sans;
+
+}
+.hero button{
+    font-family: Inter ;
+}
+.hero img{
+        width: -webkit-fill-available;
+}
+.hero label{
+    color: white;
+}
+/*end hero section */
+/*start contant section */
+.col .icon{
+    background-color: #ffb100;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 5px ;
+}
+.contant span{
+    font-size: 15px;
+    font-family: Work sans;
+}
+.contant address{
+    font-size: 16px;
+    font-family: Work sans;
+    font-weight:bold ;
+}
+.contant p{
+    font-size: 16px;
+    font-family: Work sans;
+    font-weight:bold ;
+}
+/*end contant section */
+/*start blog section */
+.Blog h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Work Sans;
+    text-align: center;
+}
+.Blog h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Work Sans;
+    
+}
+.Blog span{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Work Sans;
+}
+.Blog img{
+    width: -webkit-fill-available ;
+}
+/*end blog section */
+/*start footer sectioin*/
+.col .icon{
+    background-color: #ffb100;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 5px ;
+}
+.footer span{
+    font-size: 15px;
+    font-family: Work sans;
+}
+.footer address{
+    font-size: 16px;
+    font-family: Work sans;
+    font-weight:bold ;
+}
+.footer p{
+    font-size: 16px;
+    font-family: Work sans;
+    font-weight:bold ;
+}
+.footer ul{
+    padding: 0;
+    margin: 0;
+}
+.footer h2{
+    font-family: Work sans;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer li{
+    font-family: Work sans;
+    font-size: 16px;
+}
+.footer a{
+    text-decoration: none;
+    color: #5937E0;
+}
+/*end footer sectioin*/
