@@ -84,6 +84,10 @@ h1{
   background-color: #5937E0;
 }
 /*end cars section*/
+.logos img{
+    width: 200px;
+    height: 200px;
+}
 /*start footer sectioin*/
 .col .icon{
     background-color: #ffb100;

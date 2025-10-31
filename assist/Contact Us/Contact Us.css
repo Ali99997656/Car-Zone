@@ -94,6 +94,10 @@ header svg{
     width: -webkit-fill-available ;
 }
 /*end blog section */
+.logos img{
+    width: 200px;
+    height: 200px;
+}
 /*start footer sectioin*/
 .col .icon{
     background-color: #ffb100;
