@@ -15,6 +15,12 @@ header svg{
     width: 40px;
     height: 40px;
 }
+header li a{
+    transition: all 0.2s 0.2s !important;
+}
+header li a:hover{
+   color: #5937E0 !important; 
+}
 /*end header section */
 .vehicle-filter {
   display: flex;
@@ -55,7 +61,7 @@ h1{
 }
 
 .vehicle-btn:hover {
-  background-color: #ebebee;
+  background-color:#3300ff6c;
 }
 
 .vehicle-btn.active {
@@ -81,7 +87,13 @@ h1{
     background-color: #5937E0;
 }
 .cars .cards a{
-  background-color: #5937E0;
+  background-color:#5937E0;
+  color: #ffffff;
+ transition: all 0.2s 0.2s !important;
+}
+
+.cards a:hover{
+  background-color:  #09002e !important; 
 }
 /*end cars section*/
 .logos img{
@@ -126,5 +138,9 @@ h1{
 .footer a{
     text-decoration: none;
     color: #5937E0;
+    transition: all 0.3s !important;
+}
+.footer a:hover{
+    color: #09002e !important;
 }
 /*end footer sectioin*/
