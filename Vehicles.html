@@ -20,20 +20,20 @@
 
 <body>
   <header class="header position-sticky z-3 top-0 w-100 mt-1">
-    <div class=" container">
+    <div class="container">
       <div class="flex-lg-nowrap d-flex justify-content-between">
         <a href="index.html">
           <img src="assist/heder section/Logo.webp" alt="Car Zone" /></a>
         <nav class="nav">
           <ul class="nav d-none d-lg-flex d-xl-flex d-xxl-flex justify-content-end">
             <li class="nav-item">
-              <a class="nav-link  text-black" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link text-black" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-danger" href="#">Vehicles</a>
-            </li> 
+            </li>
             <li class="nav-item">
-              <a class="nav-link text-black" href="aboutus.html" >About Us</a>
+              <a class="nav-link text-black" href="aboutus.html">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-black" href="Contact Us.html">Contact Us</a>
@@ -41,65 +41,102 @@
           </ul>
         </nav>
         <img class="d-none d-lg-block d-xl-block d-xxl-block" src="assist/heder section/Icons+ text.webp" alt="Phone" />
-        <svg class="d-block d-lg-none d-xl-none d-xxl-n" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#5937E0" d="M40 48C26.7 48 16 58.7 16 72l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L40 48zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 64zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zM16 232l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0z"/></svg>
+   <div class="btn-group">
+          <button class="btn btn-lg dropdown-toggle d-block d-lg-none d-xl-none d-xxl-n" type="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <svg class="d-block d-lg-none d-xl-none d-xxl-n" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path fill="#5937E0"
+                d="M40 48C26.7 48 16 58.7 16 72l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L40 48zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 64zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zM16 232l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0z" />
+            </svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li >
+              <a class="nav-link text-black" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li >
+              <a class="nav-link text-danger" href="Vehicles.html">Vehicles</a>
+            </li>
+
+            <li >
+              <a class="nav-link text-black" href="aboutus.html">About Us</a>
+            </li>
+            <li >
+              <a class="nav-link text-black" href="Contact Us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
   <section class="Button">
     <h1>Select a vehicle group</h1>
     <div class="container py-5 d-flex justify-content-center">
-        
-    <div class="vehicle-filter">
-      <button class="vehicle-btn active">
-        <!-- car icon -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M499.7 202.7 437.4 69.4C428.8 51.2 410.7 40 391.1 40H120.9C101.3 40 83.2 51.2 74.6 69.4L12.3 202.7C4.5 218.5 0 236.3 0 254.4V392c0 22.1 17.9 40 40 40h16c13.3 0 24-10.7 24-24V360H432v48c0 13.3 10.7 24 24 24h16c22.1 0 40-17.9 40-40V254.4c0-18.1-4.5-35.9-12.3-51.7zM120.9 88h270.3l62.3 132.8H58.6L120.9 88zM128 328c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40zm256 0c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40z"/></svg>
-        All vehicles
-      </button>
+      <div class="vehicle-filter">
+        <button class="vehicle-btn active">
+          <!-- car icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+              d="M499.7 202.7 437.4 69.4C428.8 51.2 410.7 40 391.1 40H120.9C101.3 40 83.2 51.2 74.6 69.4L12.3 202.7C4.5 218.5 0 236.3 0 254.4V392c0 22.1 17.9 40 40 40h16c13.3 0 24-10.7 24-24V360H432v48c0 13.3 10.7 24 24 24h16c22.1 0 40-17.9 40-40V254.4c0-18.1-4.5-35.9-12.3-51.7zM120.9 88h270.3l62.3 132.8H58.6L120.9 88zM128 328c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40zm256 0c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40z" />
+          </svg>
+          All vehicles
+        </button>
 
-      <button class="vehicle-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M128 128h384l96 160H32L128 128zM64 320h512v32H64V320z"/></svg>
-        Sedan
-      </button>
+        <button class="vehicle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path d="M128 128h384l96 160H32L128 128zM64 320h512v32H64V320z" />
+          </svg>
+          Sedan
+        </button>
 
-      <button class="vehicle-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528 128H48L0 256h576l-48-128zM128 288a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm320 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-        Cabriolet
-      </button>
+        <button class="vehicle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path
+              d="M528 128H48L0 256h576l-48-128zM128 288a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm320 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+          </svg>
+          Cabriolet
+        </button>
 
-      <button class="vehicle-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M416 128H320v64H96l-32 64h416l-64-128zM64 320h512v32H64V320z"/></svg>
-        Pickup
-      </button>
+        <button class="vehicle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path d="M416 128H320v64H96l-32 64h416l-64-128zM64 320h512v32H64V320z" />
+          </svg>
+          Pickup
+        </button>
 
-      <button class="vehicle-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M480 128H160L96 256h448l-64-128zM128 288a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm384 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-        SUV
-      </button>
+        <button class="vehicle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path
+              d="M480 128H160L96 256h448l-64-128zM128 288a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm384 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+          </svg>
+          SUV
+        </button>
 
-      <button class="vehicle-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M512 160H192L128 288h416l-32-128zM96 320h448v32H96V320z"/></svg>
-        Minivan
-      </button>
+        <button class="vehicle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path d="M512 160H192L128 288h416l-32-128zM96 320h448v32H96V320z" />
+          </svg>
+          Minivan
+        </button>
+      </div>
     </div>
-  </div>
-
   </section>
-  <section class="cars pt-5 ">
-    <div class=" container">
+  <section class="cars pt-5">
+    <div class="container">
       <div
         class="d-flex row gap-4 row-cols-md-3 row-cols-sm-2 row-cols-2 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-4 justify-content-between">
-        <div class="cards rounded-4 d-flex flex-column col ">
+        <div class="cards rounded-4 d-flex flex-column col">
           <div class="imge">
-            <img src="assist/cars/audi-q8.webp" alt="car">
+            <img src="assist/cars/audi-q8.webp" alt="car" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between align-items-center mb-2">
-              <p  class="card-title fw-bold mb-0">Audi</p>
-              <p  class="text-primary fw-bold mb-0">$250</p>
+              <p class="card-title fw-bold mb-0">Audi</p>
+              <p class="text-primary fw-bold mb-0">$250</p>
             </div>
             <div class="d-flex justify-content-between">
-              <p class="text-secondary me-auto d-inline-block">SUV </p>
-              <p class="text-secondary  d-inline-block ms-auto"> per day</p>
+              <p class="text-secondary me-auto d-inline-block">SUV</p>
+              <p class="text-secondary d-inline-block ms-auto">per day</p>
             </div>
             <div class="d-flex justify-content-around text-muted mb-4">
               <span><i class="bi bi-gear-fill me-1"></i>Automat</span>
@@ -107,21 +144,20 @@
               <span><i class="bi bi-snow me-1"></i>Air Conditioner</span>
             </div>
           </div>
-                      <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
-
+          <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
         </div>
-        <div class="cards rounded-4 d-flex flex-column col ">
+        <div class="cards rounded-4 d-flex flex-column col">
           <div class="imge">
-            <img src="assist/cars/jeep.webp" alt="car">
+            <img src="assist/cars/jeep.webp" alt="car" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between align-items-center mb-2">
-              <p class="card-title fw-bold mb-0">Jeep</ p>
-              <p class="text-primary fw-bold mb-0">$250</ p>
+              <p class="card-title fw-bold mb-0">Jeep</p>
+              <p class="text-primary fw-bold mb-0">$250</p>
             </div>
             <div class="d-flex justify-content-between">
-              <p class="text-secondary me-auto d-inline-block">SUV </p>
-              <p class="text-secondary  d-inline-block ms-auto"> per day</p>
+              <p class="text-secondary me-auto d-inline-block">SUV</p>
+              <p class="text-secondary d-inline-block ms-auto">per day</p>
             </div>
             <div class="d-flex justify-content-around text-muted mb-4">
               <span><i class="bi bi-gear-fill me-1"></i>Automat</span>
@@ -129,21 +165,20 @@
               <span><i class="bi bi-snow me-1"></i>Air Conditioner</span>
             </div>
           </div>
-                      <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
-
+          <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
         </div>
-        <div class="cards rounded-4 d-flex flex-column col ">
+        <div class="cards rounded-4 d-flex flex-column col">
           <div class="imge">
-            <img src="assist/cars/marcedes-gt.webp" alt="car">
+            <img src="assist/cars/marcedes-gt.webp" alt="car" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between align-items-center mb-2">
-              <p class="card-title fw-bold mb-0">Mercedes</ p>
-              <p class="text-primary fw-bold mb-0">$250</ p>
+              <p class="card-title fw-bold mb-0">Mercedes</p>
+              <p class="text-primary fw-bold mb-0">$250</p>
             </div>
             <div class="d-flex justify-content-between">
-              <p class="text-secondary me-auto d-inline-block">SPORT </p>
-              <p class="text-secondary  d-inline-block ms-auto"> per day</p>
+              <p class="text-secondary me-auto d-inline-block">SPORT</p>
+              <p class="text-secondary d-inline-block ms-auto">per day</p>
             </div>
             <div class="d-flex justify-content-around text-muted mb-4">
               <span><i class="bi bi-gear-fill me-1"></i>Automat</span>
@@ -151,21 +186,20 @@
               <span><i class="bi bi-snow me-1"></i>Air Conditioner</span>
             </div>
           </div>
-                     <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
-
+          <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
         </div>
-        <div class="cards rounded-4 d-flex flex-column col ">
+        <div class="cards rounded-4 d-flex flex-column col">
           <div class="imge">
-            <img src="assist/cars/Black-audi.webp" alt="car">
+            <img src="assist/cars/Black-audi.webp" alt="car" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between align-items-center mb-2">
-              <p class="card-title fw-bold mb-0">Audi</ p>
-              <p class="text-primary fw-bold mb-0">$250</ p>
+              <p class="card-title fw-bold mb-0">Audi</p>
+              <p class="text-primary fw-bold mb-0">$250</p>
             </div>
             <div class="d-flex justify-content-between">
-              <p class="text-secondary me-auto d-inline-block">SUV </p>
-              <p class="text-secondary  d-inline-block ms-auto"> per day</p>
+              <p class="text-secondary me-auto d-inline-block">SUV</p>
+              <p class="text-secondary d-inline-block ms-auto">per day</p>
             </div>
             <div class="d-flex justify-content-around text-muted mb-4">
               <span><i class="bi bi-gear-fill me-1"></i>Automat</span>
@@ -173,21 +207,20 @@
               <span><i class="bi bi-snow me-1"></i>Air Conditioner</span>
             </div>
           </div>
-                     <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
-
+          <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
         </div>
-        <div class="cards rounded-4 d-flex flex-column col ">
+        <div class="cards rounded-4 d-flex flex-column col">
           <div class="imge">
-            <img src="assist/cars/hybrid-car.webp" alt="car">
+            <img src="assist/cars/hybrid-car.webp" alt="car" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between align-items-center mb-2">
-              <p class="card-title fw-bold mb-0">Honda</ p>
-              <p class="text-primary fw-bold mb-0">$250</ p>
+              <p class="card-title fw-bold mb-0">Honda</p>
+              <p class="text-primary fw-bold mb-0">$250</p>
             </div>
             <div class="d-flex justify-content-between">
-              <p class="text-secondary me-auto d-inline-block">Sedan </p>
-              <p class="text-secondary  d-inline-block ms-auto"> per day</p>
+              <p class="text-secondary me-auto d-inline-block">Sedan</p>
+              <p class="text-secondary d-inline-block ms-auto">per day</p>
             </div>
             <div class="d-flex justify-content-around text-muted mb-4">
               <span><i class="bi bi-gear-fill me-1"></i>Automat</span>
@@ -195,21 +228,20 @@
               <span><i class="bi bi-snow me-1"></i>Air Conditioner</span>
             </div>
           </div>
-                   <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
-
+          <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
         </div>
-        <div class="cards rounded-4 d-flex flex-column col ">
+        <div class="cards rounded-4 d-flex flex-column col">
           <div class="imge">
-            <img src="assist/cars/marcedec-jeep.png" alt="car">
+            <img src="assist/cars/marcedec-jeep.png" alt="car" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between align-items-center mb-2">
-              <p class="card-title fw-bold mb-0">Mercedes</ p>
-              <p class="text-primary fw-bold mb-0">$250</ p>
+              <p class="card-title fw-bold mb-0">Mercedes</p>
+              <p class="text-primary fw-bold mb-0">$250</p>
             </div>
             <div class="d-flex justify-content-between">
-              <p class="text-secondary me-auto d-inline-block">SUV </p>
-              <p class="text-secondary  d-inline-block ms-auto"> per day</p>
+              <p class="text-secondary me-auto d-inline-block">SUV</p>
+              <p class="text-secondary d-inline-block ms-auto">per day</p>
             </div>
             <div class="d-flex justify-content-around text-muted mb-4">
               <span><i class="bi bi-gear-fill me-1"></i>Automat</span>
@@ -217,21 +249,20 @@
               <span><i class="bi bi-snow me-1"></i>Air Conditioner</span>
             </div>
           </div>
-                      <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
-
+          <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
         </div>
-        <div class="cards rounded-4 d-flex flex-column col ">
+        <div class="cards rounded-4 d-flex flex-column col">
           <div class="imge">
-            <img src="assist/cars/mazda.webp" alt="car">
+            <img src="assist/cars/mazda.webp" alt="car" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between align-items-center mb-2">
-              <p class="card-title fw-bold mb-0">Mazda</ p>
-              <p class="text-primary fw-bold mb-0">$250</ p>
+              <p class="card-title fw-bold mb-0">Mazda</p>
+              <p class="text-primary fw-bold mb-0">$250</p>
             </div>
             <div class="d-flex justify-content-between">
-              <p class="text-secondary me-auto d-inline-block">Sedan </p>
-              <p class="text-secondary  d-inline-block ms-auto"> per day</p>
+              <p class="text-secondary me-auto d-inline-block">Sedan</p>
+              <p class="text-secondary d-inline-block ms-auto">per day</p>
             </div>
             <div class="d-flex justify-content-around text-muted mb-4">
               <span><i class="bi bi-gear-fill me-1"></i>Automat</span>
@@ -239,21 +270,20 @@
               <span><i class="bi bi-snow me-1"></i>Air Conditioner</span>
             </div>
           </div>
-                      <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
-
+          <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
         </div>
-        <div class="cards rounded-4 d-flex flex-column col ">
+        <div class="cards rounded-4 d-flex flex-column col">
           <div class="imge">
-            <img src="assist/cars/mercedes_jeep2.webp" alt="car">
+            <img src="assist/cars/mercedes_jeep2.webp" alt="car" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between align-items-center mb-2">
-              <p class="card-title fw-bold mb-0">Mercedes</ p>
-              <p class="text-primary fw-bold mb-0">$250</ p>
+              <p class="card-title fw-bold mb-0">Mercedes</p>
+              <p class="text-primary fw-bold mb-0">$250</p>
             </div>
             <div class="d-flex justify-content-between">
-              <p class="text-secondary me-auto d-inline-block">SUV </p>
-              <p class="text-secondary  d-inline-block ms-auto"> per day</p>
+              <p class="text-secondary me-auto d-inline-block">SUV</p>
+              <p class="text-secondary d-inline-block ms-auto">per day</p>
             </div>
             <div class="d-flex justify-content-around text-muted mb-4">
               <span><i class="bi bi-gear-fill me-1"></i>Automat</span>
@@ -261,21 +291,20 @@
               <span><i class="bi bi-snow me-1"></i>Air Conditioner</span>
             </div>
           </div>
-                     <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
-
+          <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
         </div>
-        <div class="cards rounded-4 d-flex flex-column col ">
+        <div class="cards rounded-4 d-flex flex-column col">
           <div class="imge">
-            <img src="assist/cars/Sports-Car.webp" alt="car">
+            <img src="assist/cars/Sports-Car.webp" alt="car" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between align-items-center mb-2">
-              <p class="card-title fw-bold mb-0">Mercedes</ p>
-              <p class="text-primary fw-bold mb-0">$250</ p>
+              <p class="card-title fw-bold mb-0">Mercedes</p>
+              <p class="text-primary fw-bold mb-0">$250</p>
             </div>
             <div class="d-flex justify-content-between">
-              <p class="text-secondary me-auto d-inline-block">SPORT </p>
-              <p class="text-secondary  d-inline-block ms-auto"> per day</p>
+              <p class="text-secondary me-auto d-inline-block">SPORT</p>
+              <p class="text-secondary d-inline-block ms-auto">per day</p>
             </div>
             <div class="d-flex justify-content-around text-muted mb-4">
               <span><i class="bi bi-gear-fill me-1"></i>Automat</span>
@@ -283,83 +312,82 @@
               <span><i class="bi bi-snow me-1"></i>Air Conditioner</span>
             </div>
           </div>
-                     <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
-
+          <a class="btn rounded-3 fw-semibold" href="View Details.html">View Details</a>
         </div>
       </div>
     </div>
   </section>
-   <section class="logos p-5">
+  <section class="logos p-5">
     <div class="container">
-      <div class="rounded-4 row bg-light d-flex row-cols-2 align-items-center justify-content-center row-cols-lg-6 p-5 gap-3">
-        <img class="col" src="assist/Contact Us/logos/audi-logo-2.webp" alt="logo">
-        <img class="col" src="assist/Contact Us/logos/BMW.svg.webp" alt="logo">
-        <img class="col" src="assist/Contact Us/logos/Honda_Logo.svg.webp" alt="logo">
-        <img class="col" src="assist/Contact Us/logos/Mercedes-Logo.svg.webp" alt="logo">
-        <img class="col" src="assist/Contact Us/logos/pngimg.com - mazda_PNG65.webp" alt="logo">
+      <div
+        class="rounded-4 row bg-light d-flex row-cols-2 align-items-center justify-content-center row-cols-lg-6 p-5 gap-3">
+        <img class="col" src="assist/Contact Us/logos/audi-logo-2.webp" alt="logo" />
+        <img class="col" src="assist/Contact Us/logos/BMW.svg.webp" alt="logo" />
+        <img class="col" src="assist/Contact Us/logos/Honda_Logo.svg.webp" alt="logo" />
+        <img class="col" src="assist/Contact Us/logos/Mercedes-Logo.svg.webp" alt="logo" />
+        <img class="col" src="assist/Contact Us/logos/pngimg.com - mazda_PNG65.webp" alt="logo" />
       </div>
     </div>
   </section>
-    <footer class="footer pt-5 pb-5 ">
+  <footer class="footer pt-5 pb-5">
     <div class="container">
       <div class="d-flex flex-column gap-5">
-        <div class=" d-flex row justify-content-start row-cols-lg-4 row-cols-md-2 row-cols-1 gap-4  ">
-          <div class="col"> <img src="assist/heder section/Logo.webp" alt="logo"> </div>
+        <div class="d-flex row justify-content-start row-cols-lg-4 row-cols-md-2 row-cols-1 gap-4">
+          <div class="col">
+            <img src="assist/heder section/Logo.webp" alt="logo" />
+          </div>
           <div class="d-flex row col">
-            <div class=" icon rounded-5"><svg xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 384 512"><!--!Font Awesome Pro v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.-->
+            <div class="icon rounded-5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <!--!Font Awesome Pro v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.-->
                 <path fill="#ffffff"
                   d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
               </svg>
             </div>
             <div class="col d-flex flex-column">
-              <span>
-                Address
-              </span>
-              <address>
-                Oxford Ave. Cary, NC 27511
-              </address>
+              <span> Address </span>
+              <address>Oxford Ave. Cary, NC 27511</address>
             </div>
           </div>
           <div class="d-flex row col">
-            <div class=" icon rounded-5"><svg xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+            <div class="icon rounded-5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                 <path fill="#ffffff"
                   d="M48 64c-26.5 0-48 21.5-48 48 0 15.1 7.1 29.3 19.2 38.4l208 156c17.1 12.8 40.5 12.8 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48L48 64zM0 196L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-188-198.4 148.8c-34.1 25.6-81.1 25.6-115.2 0L0 196z" />
               </svg>
             </div>
             <div class="col d-flex flex-column">
-              <span>
-                Email
-              </span>
+              <span> Email </span>
               <p>nwiger@yahoo.com</p>
             </div>
           </div>
           <div class="d-flex row col">
-            <div class=" icon rounded-5"><svg xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+            <div class="icon rounded-5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                 <path fill="#ffffff"
                   d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 156.4 37.1 175 174.8 312.7 349.8 349.8 76.3 16.2 138.8-39.1 156.4-103.7l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 11.8l-38.6 47.2C233.9 335.4 177.3 277 144.8 205.3L189 169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z" />
               </svg>
             </div>
             <div class="col d-flex flex-column">
-              <span>
-                Phone
-              </span>
+              <span> Phone </span>
               <p>+537 547-6401</p>
             </div>
           </div>
-
         </div>
 
         <div class="d-flex row row-cols-5 justify-content-between">
           <div class="col">
-            <p>Faucibus faucibus pellentesque dictum turpis. Id pellentesque turpis massa a id iaculis lorem tur</p>
+            <p>
+              Faucibus faucibus pellentesque dictum turpis. Id pellentesque
+              turpis massa a id iaculis lorem tur
+            </p>
           </div>
           <div class="col d-flex flex-column gap-2 align-items-start">
             <h2>Useful links</h2>
-            <ul class="list text-start ">
-              <li class="list-group-item">About us </li>
+            <ul class="list text-start">
+              <li class="list-group-item">About us</li>
               <li class="list-group-item">Contact us</li>
               <li class="list-group-item">Gallery</li>
               <li class="list-group-item">Blog</li>
@@ -368,15 +396,15 @@
           </div>
           <div class="col d-flex flex-column gap-2 align-items-start">
             <h2>Vehicles</h2>
-            <ul class="list text-start ">
-              <li class="list-group-item">Sedan </li>
+            <ul class="list text-start">
+              <li class="list-group-item">Sedan</li>
               <li class="list-group-item">Sport</li>
               <li class="list-group-item">Hybrid</li>
               <li class="list-group-item">SUV</li>
               <li class="list-group-item">Picup</li>
             </ul>
           </div>
-              <div class="col d-flex flex-column gap-2 align-items-start">
+          <div class="col d-flex flex-column gap-2 align-items-start">
             <h2>Login</h2>
             <a href="login.html" target="_blank"> Login </a>
             <a href="creatAccuont.html" target="_blank">Regestare</a>
@@ -385,3 +413,6 @@
       </div>
     </div>
   </footer>
+</body>
+
+</html>

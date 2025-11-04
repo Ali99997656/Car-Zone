@@ -1,511 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About Us - Car Zone</title>
-    <!--boot strap-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <!--fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!--main css-->
-    <link rel="stylesheet" href="assist/aboutus/AboutUs.css" />
-  </head>
-  <body>
-    <header class="header position-sticky z-3 top-0 w-100 mt-1">
-      <div class="container">
-        <div class="flex-lg-nowrap d-flex justify-content-between">
-          <a href="index.html">
-            <img src="assist/heder section/Logo.webp" alt="Car Zone"
-          /></a>
-          <nav class="nav">
-            <ul
-              class="nav d-none d-lg-flex d-xl-flex d-xxl-flex justify-content-end"
-            >
-              <li class="nav-item">
-                <a
-                  class="nav-link text-black"
-                  aria-current="page"
-                  href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-black" href="Vehicles.html">Vehicles</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-danger" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-black" href="Contact Us.html">Contact Us</a>
-              </li>
-            </ul>
-          </nav>
-          <img
-            class="d-none d-lg-block d-xl-block d-xxl-block"
-            src="assist/heder section/Icons+ text.webp"
-            alt="Phone"
-          />
-          <svg
-            class="d-block d-lg-none d-xl-none d-xxl-n"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512"
-          >
-            <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-            <path
-              fill="#5937E0"
-              d="M40 48C26.7 48 16 58.7 16 72l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L40 48zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 64zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zM16 232l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0z"
-            />
-          </svg>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us - Car Zone</title>
+  <!--boot strap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <!--main css-->
+  <link rel="stylesheet" href="assist/aboutus/AboutUs.css" />
+</head>
+
+<body>
+  <header class="header position-sticky z-3 top-0 w-100 mt-1">
+    <div class="container">
+      <div class="flex-lg-nowrap d-flex justify-content-between">
+        <a href="index.html">
+          <img src="assist/heder section/Logo.webp" alt="Car Zone" /></a>
+        <nav class="nav">
+          <ul class="nav d-none d-lg-flex d-xl-flex d-xxl-flex justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link text-black" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="Vehicles.html">Vehicles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="Contact Us.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <img class="d-none d-lg-block d-xl-block d-xxl-block" src="assist/heder section/Icons+ text.webp" alt="Phone" />
+        <div class="btn-group">
+          <button class="btn btn-lg dropdown-toggle d-block d-lg-none d-xl-none d-xxl-n" type="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <svg class="d-block d-lg-none d-xl-none d-xxl-n" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path fill="#5937E0"
+                d="M40 48C26.7 48 16 58.7 16 72l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L40 48zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 64zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zM16 232l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0z" />
+            </svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li >
+              <a class="nav-link text-black" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li >
+              <a class="nav-link text-danger" href="Vehicles.html">Vehicles</a>
+            </li>
+
+            <li >
+              <a class="nav-link text-black" href="#">About Us</a>
+            </li>
+            <li >
+              <a class="nav-link text-black" href="Contact Us.html">Contact Us</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
-    <section class="Breadcrumb p-5">
+    </div>
+  </header>
+  <section class="Breadcrumb p-5">
     <div class="container">
       <div class="text-center lh-1">
         <h1>About Us</h1>
-        <nav  style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-  <ol  class="breadcrumb justify-content-center">
-    <li class="breadcrumb-item active" aria-current="page">Home</li>
-    <li class="breadcrumb-item">About Us</li>
-  </ol>
-</nav>
+        <nav style="
+              --bs-breadcrumb-divider: url(
+                &#34;data:image/svg + xml,
+                %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='%236c757d'/%3E%3C/svg%3E&#34;
+              );
+            " aria-label="breadcrumb">
+          <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+            <li class="breadcrumb-item">About Us</li>
+          </ol>
+        </nav>
       </div>
     </div>
   </section>
-    <section class="about-section text-center py-5">
-      <div class="container">
-       
-        <div
-          class="d-flex row row-cols-1 row-cols-lg-2 justify-content-between mt-5"
-        >
-          <div>
-            <p class="text-q mb-5">Where every drive feels extraordinary?</p>
+  <section class="about-section text-center py-5">
+    <div class="container">
+      <div class="d-flex row row-cols-1 row-cols-lg-2 justify-content-between mt-5">
+        <div>
+          <p class="text-q mb-5">Where every drive feels extraordinary?</p>
+        </div>
+        <div class="row d-flex row-cols-2">
+          <div class="col text-start">
+            <span>Variety Brands</span>
+            <p>We offer the best selection of vehicles from top brands.</p>
           </div>
-          <div class="row d-flex  row-cols-2">
-            <div class="col text-start">
-              <span >Variety Brands</span>
-              <p>We offer the best selection of vehicles from top brands.</p>
-            </div>
-            <div class="col text-start">
-              <span>Awesome Expert</span>
-              <p>Our experts ensure your satisfaction every time you drive.</p>
-            </div>
-            <div class="col text-start">
-              <span>Premium Quality</span>
-              <p>Only the best, fully inspected vehicles for our clients.</p>
-            </div>
-            <div class="col text-start">
-              <span>Flexibility On The Go</span>
-              <p>Enjoy flexible rental options for any trip or need.</p>
-            </div>
+          <div class="col text-start">
+            <span>Awesome Expert</span>
+            <p>Our experts ensure your satisfaction every time you drive.</p>
+          </div>
+          <div class="col text-start">
+            <span>Premium Quality</span>
+            <p>Only the best, fully inspected vehicles for our clients.</p>
+          </div>
+          <div class="col text-start">
+            <span>Flexibility On The Go</span>
+            <p>Enjoy flexible rental options for any trip or need.</p>
           </div>
         </div>
       </div>
-    </section>
-    <section class="video-section text-center mt-5 mb-5">
-      <div class="container">
-        <div class="ratio ratio-16x9 shadow-lg rounded-4 overflow-hidden">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/Rx9fCHbBNmQ?si=nT7zF-VhTLnsoSMv"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+    </div>
+  </section>
+  <section class="video-section text-center mt-5 mb-5">
+    <div class="container">
+      <div class="ratio ratio-16x9 shadow-lg rounded-4 overflow-hidden">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rx9fCHbBNmQ?si=nT7zF-VhTLnsoSMv"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  <section class="stats-section mt-5">
+    <div class="container text-center">
+      <div class="d-flex row row-cols-1 row-cols-lg-3 align-items-center">
+        <div class="col">
+          <p class="num">>540+</p>
+          <p class="text">Count of cars</p>
+        </div>
+        <div class="col">
+          <p class="num">>20k+</p>
+          <p class="text">Happy customers</p>
+        </div>
+        <div class="col">
+          <p class="num">>25+</p>
+          <p class="text">Years of experince</p>
         </div>
       </div>
-    </section>
-    <section class="stats-section mt-5">
-      <div class="container text-center">
-        <div class="d-flex row row-cols-1 row-cols-lg-3 align-items-center">
-          <div class="col">
-            <p class="num">>540+</p>
-            <p class="text">Count of cars</p>
-          </div>
-          <div class="col">
-            <p class="num">>20k+</p>
-            <p class="text">Happy customers</p>
-          </div>
-          <div class="col">
-            <p class="num">>25+</p>
-            <p class="text">Years of experince</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="info mb-5 mt-5">
-      <div class="container">
-        <div
-          class="d-flex row row-cols-lg-2 row-cols-1 justify-content-between align-items-center"
-        >
-          <div class="text d-flex flex-column gap-4">
-            <h2>Unlock unforgettable memories on the road</h2>
-            <span
-              >Aliquam adipiscing velit semper morbi. Purus non eu cursus
-              porttitor tristique et gravida. Quis nunc interdum gravida
-              ullamcorper</span
-            >
-            <div class="d-flex row row-cols-1 row-cols-lg-2">
-              <div class="gap-2 col d-flex">
-                <img src="assist/Vehicles/imge/Frame 125.png" alt="icon" />
-                <p>
-                  Velit semper morbi. Purus non eu cursus porttitor tristique et
-                  gravida. Quis nunc interdum gravida ullamcorper
-                </p>
-              </div>
-              <div class="gap-2 col d-flex">
-                <img src="assist/Vehicles/imge/Frame 125.png" alt="icon" />
-                <p>
-                  Purus non eu cursus porttitor tristique et gravida. Quis nunc
-                  interdum
-                </p>
-              </div>
-              <div class="gap-2 col d-flex">
-                <img src="assist/Vehicles/imge/Frame 125.png" alt="icon" />
-                <p>
-                  Aliquam adipiscing velit semper morbi. Purus non eu cursus
-                  porttitor
-                </p>
-              </div>
-              <div class="gap-2 col d-flex">
-                <img src="assist/Vehicles/imge/Frame 125.png" alt="icon" />
-                <p>Quis nunc interdum gravida ullamcorper</p>
-              </div>
+    </div>
+  </section>
+  <section class="info mb-5 mt-5">
+    <div class="container">
+      <div class="d-flex row row-cols-lg-2 row-cols-1 justify-content-between align-items-center">
+        <div class="text d-flex flex-column gap-4">
+          <h2>Unlock unforgettable memories on the road</h2>
+          <span>Aliquam adipiscing velit semper morbi. Purus non eu cursus
+            porttitor tristique et gravida. Quis nunc interdum gravida
+            ullamcorper</span>
+          <div class="d-flex row row-cols-1 row-cols-lg-2">
+            <div class="gap-2 col d-flex">
+              <img src="assist/Vehicles/imge/Frame 125.png" alt="icon" />
+              <p>
+                Velit semper morbi. Purus non eu cursus porttitor tristique et
+                gravida. Quis nunc interdum gravida ullamcorper
+              </p>
             </div>
-          </div>
-          <div class="imge">
-            <img src="assist/aboutus/Img (2).webp" alt="img" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="app-section mt-5 text-center">
-      <div class="container">
-        <div class="rounded-4 p-5 position-relative">
-          <img
-            class="position-absolute d-none d-lg-block"
-            src="assist/mobile app section/Group 12.webp"
-            alt="mobile"
-          />
-          <div class="d-flex flex-column gap-3 col-lg-7 text-start ms-auto">
-            <p>Download our app</p>
-            <h2 class="fw-bold mb-3">Download our app</h2>
-            <p>
-              Turpis morbi enim nisi pulvinar leo dui tellus. Faucibus egestas
-              semper diam rutrum dictumst ut donec. Nisi nisi morbi vel in
-              vulputate. Nulla nam eget urna fusce vulputate at risus
-            </p>
-            <div class="d-flex justify-content-start gap-3 mt-4 flex-wrap">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-                width="160"
-              />
-              <img
-                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                width="150"
-              />
+            <div class="gap-2 col d-flex">
+              <img src="assist/Vehicles/imge/Frame 125.png" alt="icon" />
+              <p>
+                Purus non eu cursus porttitor tristique et gravida. Quis nunc
+                interdum
+              </p>
+            </div>
+            <div class="gap-2 col d-flex">
+              <img src="assist/Vehicles/imge/Frame 125.png" alt="icon" />
+              <p>
+                Aliquam adipiscing velit semper morbi. Purus non eu cursus
+                porttitor
+              </p>
+            </div>
+            <div class="gap-2 col d-flex">
+              <img src="assist/Vehicles/imge/Frame 125.png" alt="icon" />
+              <p>Quis nunc interdum gravida ullamcorper</p>
             </div>
           </div>
         </div>
+        <div class="imge">
+          <img src="assist/aboutus/Img (2).webp" alt="img" />
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <section class="app-section mt-5 text-center">
+    <div class="container">
+      <div class="rounded-4 p-5 position-relative">
+        <img class="position-absolute d-none d-lg-block" src="assist/mobile app section/Group 12.webp" alt="mobile" />
+        <div class="d-flex flex-column gap-3 col-lg-7 text-start ms-auto">
+          <p>Download our app</p>
+          <h2 class="fw-bold mb-3">Download our app</h2>
+          <p>
+            Turpis morbi enim nisi pulvinar leo dui tellus. Faucibus egestas
+            semper diam rutrum dictumst ut donec. Nisi nisi morbi vel in
+            vulputate. Nulla nam eget urna fusce vulputate at risus
+          </p>
+          <div class="d-flex justify-content-start gap-3 mt-4 flex-wrap">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" width="160" />
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="150" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="reviews py-5">
-      <div class="container text-center">
-        <h3 class="fw-bold mb-5">Reviews from our customers</h3>
-        <div class="row g-4 row-cols-1 row-cols-lg-3">
-          <div class="cardي">
-            <div class="review-card shadow-sm">
-              <div class="review-content p-4">
-                <div class="quote-icon">❝</div>
-                <p>
-                  Et aliquet netus at sapien pellentesque mollis nec dignissim
-                  maecenas. Amet erat volutpat quisque odio purus feugiat.
-                </p>
-              </div>
-              <div class="review-footer">
-                <img
-                  src="https://i.pravatar.cc/100?img=12"
-                  alt="user"
-                  class="review-img"
-                />
-                <div>
-                  <small class="text-light opacity-75">Kuphal LLC</small>
-                  <h6 class="text-white fw-bold mb-0">Emanuel Boyle</h6>
-                </div>
+  <section class="reviews py-5">
+    <div class="container text-center">
+      <h3 class="fw-bold mb-5">Reviews from our customers</h3>
+      <div class="row g-4 row-cols-1 row-cols-lg-3">
+        <div class="cardي">
+          <div class="review-card shadow-sm">
+            <div class="review-content p-4">
+              <div class="quote-icon">❝</div>
+              <p>
+                Et aliquet netus at sapien pellentesque mollis nec dignissim
+                maecenas. Amet erat volutpat quisque odio purus feugiat.
+              </p>
+            </div>
+            <div class="review-footer">
+              <img src="https://i.pravatar.cc/100?img=12" alt="user" class="review-img" />
+              <div>
+                <small class="text-light opacity-75">Kuphal LLC</small>
+                <h6 class="text-white fw-bold mb-0">Emanuel Boyle</h6>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="cardي">
-            <div class="review-card shadow-sm">
-              <div class="review-content p-4">
-                <div class="quote-icon">❝</div>
-                <p>
-                  Purus consectetur varius quis urna phasellus enim mattis. Sem
-                  tincidunt tortor nunc egestas amet adipiscing ligula.
-                </p>
-              </div>
-              <div class="review-footer">
-                <img
-                  src="https://i.pravatar.cc/100?img=45"
-                  alt="user"
-                  class="review-img"
-                />
-                <div>
-                  <small class="text-light opacity-75">Glover - Orn</small>
-                  <h6 class="text-white fw-bold mb-0">River Graves</h6>
-                </div>
+        <div class="cardي">
+          <div class="review-card shadow-sm">
+            <div class="review-content p-4">
+              <div class="quote-icon">❝</div>
+              <p>
+                Purus consectetur varius quis urna phasellus enim mattis. Sem
+                tincidunt tortor nunc egestas amet adipiscing ligula.
+              </p>
+            </div>
+            <div class="review-footer">
+              <img src="https://i.pravatar.cc/100?img=45" alt="user" class="review-img" />
+              <div>
+                <small class="text-light opacity-75">Glover - Orn</small>
+                <h6 class="text-white fw-bold mb-0">River Graves</h6>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="cardي">
-            <div class="review-card shadow-sm">
-              <div class="review-content p-4">
-                <div class="quote-icon">❝</div>
-                <p>
-                  Quam neque odio urna euismod felis. Sit egestas magna in
-                  quisque fames dapibus quis sapien magna.
-                </p>
-              </div>
-              <div class="review-footer">
-                <img
-                  src="https://i.pravatar.cc/100?img=56"
-                  alt="user"
-                  class="review-img"
-                />
-                <div>
-                  <small class="text-light opacity-75">Haag LLC</small>
-                  <h6 class="text-white fw-bold mb-0">Ryder Malone</h6>
-                </div>
+        <div class="cardي">
+          <div class="review-card shadow-sm">
+            <div class="review-content p-4">
+              <div class="quote-icon">❝</div>
+              <p>
+                Quam neque odio urna euismod felis. Sit egestas magna in
+                quisque fames dapibus quis sapien magna.
+              </p>
+            </div>
+            <div class="review-footer">
+              <img src="https://i.pravatar.cc/100?img=56" alt="user" class="review-img" />
+              <div>
+                <small class="text-light opacity-75">Haag LLC</small>
+                <h6 class="text-white fw-bold mb-0">Ryder Malone</h6>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="quastion p-5">
-      <div class="container">
-        <h2 class="text-center fw-bold mb-4">Top Car Rental Questions</h2>
+    </div>
+  </section>
+  <section class="quastion p-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Top Car Rental Questions</h2>
 
-        <div class="accordion" id="faqAccordion">
-          <div class="accordion-item mb-3 border rounded-3 shadow-sm">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button fw-semibold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#q1"
-                aria-expanded="true"
-              >
-                How does it work?
-              </button>
-            </h2>
-            <div
-              id="q1"
-              class="accordion-collapse collapse show"
-              data-bs-parent="#faqAccordion"
-            >
-              <div class="accordion-body text-muted">
-                Imperdiet ut tristique viverra nunc. Ultrices orci vel auctor
-                cursus turpis nibh placerat massa. Fermentum urna ut at et in.
-                Turpis aliquet cras hendrerit enim condimentum. Condimentum
-                interdum risus bibendum urna. Augue aliquet varius faucibus ut
-                integer tristique ut.
-              </div>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item mb-3 border rounded-3 shadow-sm">
+          <h2 class="accordion-header">
+            <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#q1"
+              aria-expanded="true">
+              How does it work?
+            </button>
+          </h2>
+          <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-muted">
+              Imperdiet ut tristique viverra nunc. Ultrices orci vel auctor
+              cursus turpis nibh placerat massa. Fermentum urna ut at et in.
+              Turpis aliquet cras hendrerit enim condimentum. Condimentum
+              interdum risus bibendum urna. Augue aliquet varius faucibus ut
+              integer tristique ut.
             </div>
           </div>
+        </div>
 
-          <div class="accordion-item mb-3 border rounded-3 shadow-sm">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed fw-semibold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#q2"
-              >
-                Can I rent a car without a credit card?
-              </button>
-            </h2>
-            <div
-              id="q2"
-              class="accordion-collapse collapse"
-              data-bs-parent="#faqAccordion"
-            >
-              <div class="accordion-body text-muted">
-                Some locations accept debit cards, but a credit card may be
-                required for security deposits.
-              </div>
+        <div class="accordion-item mb-3 border rounded-3 shadow-sm">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#q2">
+              Can I rent a car without a credit card?
+            </button>
+          </h2>
+          <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-muted">
+              Some locations accept debit cards, but a credit card may be
+              required for security deposits.
             </div>
           </div>
+        </div>
 
-          <div class="accordion-item mb-3 border rounded-3 shadow-sm">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed fw-semibold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#q3"
-              >
-                What are the requirements for renting a car?
-              </button>
-            </h2>
-            <div
-              id="q3"
-              class="accordion-collapse collapse"
-              data-bs-parent="#faqAccordion"
-            >
-              <div class="accordion-body text-muted">
-                A valid driver’s license, a minimum age requirement, and a
-                credit or debit card are typically needed.
-              </div>
+        <div class="accordion-item mb-3 border rounded-3 shadow-sm">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#q3">
+              What are the requirements for renting a car?
+            </button>
+          </h2>
+          <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-muted">
+              A valid driver’s license, a minimum age requirement, and a
+              credit or debit card are typically needed.
             </div>
           </div>
+        </div>
 
-          <div class="accordion-item mb-3 border rounded-3 shadow-sm">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed fw-semibold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#q4"
-              >
-                Does Car Rental allow me to tow with or attach a hitch to the
-                rental vehicle?
-              </button>
-            </h2>
-            <div
-              id="q4"
-              class="accordion-collapse collapse"
-              data-bs-parent="#faqAccordion"
-            >
-              <div class="accordion-body text-muted">
-                Towing is generally not permitted unless stated otherwise in
-                your rental agreement.
-              </div>
+        <div class="accordion-item mb-3 border rounded-3 shadow-sm">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#q4">
+              Does Car Rental allow me to tow with or attach a hitch to the
+              rental vehicle?
+            </button>
+          </h2>
+          <div id="q4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-muted">
+              Towing is generally not permitted unless stated otherwise in
+              your rental agreement.
             </div>
           </div>
+        </div>
 
-          <div class="accordion-item mb-3 border rounded-3 shadow-sm">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed fw-semibold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#q5"
-              >
-                Does Car Rental offer coverage products for purchase with my
-                rental?
-              </button>
-            </h2>
-            <div
-              id="q5"
-              class="accordion-collapse collapse"
-              data-bs-parent="#faqAccordion"
-            >
-              <div class="accordion-body text-muted">
-                Yes, you can add insurance and other protection plans at the
-                time of booking or pickup.
-              </div>
+        <div class="accordion-item mb-3 border rounded-3 shadow-sm">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#q5">
+              Does Car Rental offer coverage products for purchase with my
+              rental?
+            </button>
+          </h2>
+          <div id="q5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-muted">
+              Yes, you can add insurance and other protection plans at the
+              time of booking or pickup.
             </div>
           </div>
         </div>
       </div>
-    </section>
-      <section class="hero ">
-    <div class=" container position-relative">
+    </div>
+  </section>
+  <section class="hero">
+    <div class="container position-relative">
       <div class="text-white textandform rounded-4">
-        <div class="row  gap-5 position-relative z-1 row-cols-xxl-2">
-          <div class="col text d-flex flex-column  align-content-center justify-content-center gap-3">
+        <div class="row gap-5 position-relative z-1 row-cols-xxl-2">
+          <div class="col text d-flex flex-column align-content-center justify-content-center gap-3">
             <h2>Looking for a car?</h2>
             <span>+537 547-6401</span>
             <p>
-             Amet cras hac orci lacus. Faucibus ipsum arcu lectus nibh sapien bibendum ullamcorper in </p>
+              Amet cras hac orci lacus. Faucibus ipsum arcu lectus nibh sapien
+              bibendum ullamcorper in
+            </p>
             <a href="#" class="btn btn-warning">book now</a>
           </div>
-          </div>
         </div>
-      
-    <div class="imgee d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none  position-absolute z-0  ">
-      <img class="" src="assist/hero section/Img.webp" alt="car">
+      </div>
+
+      <div class="imgee d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none position-absolute z-0">
+        <img class="" src="assist/hero section/Img.webp" alt="car" />
+      </div>
     </div>
-</div>
-      </section>
-        <footer class="footer pt-5 pb-5 ">
+  </section>
+  <footer class="footer pt-5 pb-5">
     <div class="container">
       <div class="d-flex flex-column gap-5">
-        <div class=" d-flex row justify-content-start row-cols-lg-4 row-cols-md-2 row-cols-1 gap-4  ">
-          <div class="col"> <img src="assist/heder section/Logo.webp" alt="logo"> </div>
+        <div class="d-flex row justify-content-start row-cols-lg-4 row-cols-md-2 row-cols-1 gap-4">
+          <div class="col">
+            <img src="assist/heder section/Logo.webp" alt="logo" />
+          </div>
           <div class="d-flex row col">
-            <div class=" icon rounded-5"><svg xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 384 512"><!--!Font Awesome Pro v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.-->
+            <div class="icon rounded-5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <!--!Font Awesome Pro v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.-->
                 <path fill="#ffffff"
                   d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
               </svg>
             </div>
             <div class="col d-flex flex-column">
-              <span>
-                Address
-              </span>
-              <address>
-                Oxford Ave. Cary, NC 27511
-              </address>
+              <span> Address </span>
+              <address>Oxford Ave. Cary, NC 27511</address>
             </div>
           </div>
           <div class="d-flex row col">
-            <div class=" icon rounded-5"><svg xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+            <div class="icon rounded-5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                 <path fill="#ffffff"
                   d="M48 64c-26.5 0-48 21.5-48 48 0 15.1 7.1 29.3 19.2 38.4l208 156c17.1 12.8 40.5 12.8 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48L48 64zM0 196L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-188-198.4 148.8c-34.1 25.6-81.1 25.6-115.2 0L0 196z" />
               </svg>
             </div>
             <div class="col d-flex flex-column">
-              <span>
-                Email
-              </span>
+              <span> Email </span>
               <p>nwiger@yahoo.com</p>
             </div>
           </div>
           <div class="d-flex row col">
-            <div class=" icon rounded-5"><svg xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+            <div class="icon rounded-5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                 <path fill="#ffffff"
                   d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 156.4 37.1 175 174.8 312.7 349.8 349.8 76.3 16.2 138.8-39.1 156.4-103.7l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 11.8l-38.6 47.2C233.9 335.4 177.3 277 144.8 205.3L189 169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z" />
               </svg>
             </div>
             <div class="col d-flex flex-column">
-              <span>
-                Phone
-              </span>
+              <span> Phone </span>
               <p>+537 547-6401</p>
             </div>
           </div>
-
         </div>
 
         <div class="d-flex row row-cols-5 justify-content-between">
           <div class="col">
-            <p>Faucibus faucibus pellentesque dictum turpis. Id pellentesque turpis massa a id iaculis lorem tur</p>
+            <p>
+              Faucibus faucibus pellentesque dictum turpis. Id pellentesque
+              turpis massa a id iaculis lorem tur
+            </p>
           </div>
           <div class="col d-flex flex-column gap-2 align-items-start">
             <h2>Useful links</h2>
-            <ul class="list text-start ">
-              <li class="list-group-item">About us </li>
+            <ul class="list text-start">
+              <li class="list-group-item">About us</li>
               <li class="list-group-item">Contact us</li>
               <li class="list-group-item">Gallery</li>
               <li class="list-group-item">Blog</li>
@@ -514,15 +443,15 @@
           </div>
           <div class="col d-flex flex-column gap-2 align-items-start">
             <h2>Vehicles</h2>
-            <ul class="list text-start ">
-              <li class="list-group-item">Sedan </li>
+            <ul class="list text-start">
+              <li class="list-group-item">Sedan</li>
               <li class="list-group-item">Sport</li>
               <li class="list-group-item">Hybrid</li>
               <li class="list-group-item">SUV</li>
               <li class="list-group-item">Picup</li>
             </ul>
           </div>
-              <div class="col d-flex flex-column gap-2 align-items-start">
+          <div class="col d-flex flex-column gap-2 align-items-start">
             <h2>Login</h2>
             <a href="login.html" target="_blank"> Login </a>
             <a href="creatAccuont.html" target="_blank">Regestare</a>
@@ -531,10 +460,9 @@
       </div>
     </div>
   </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
