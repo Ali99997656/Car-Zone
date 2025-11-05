@@ -20,6 +20,9 @@ header li a{
 header li a:hover{
    color: #5937E0 !important; 
 }
+li{
+    list-style: none;
+}
 /*start hero section*/
 .hero {
   font-family: Work sans;

@@ -21,6 +21,9 @@ header li a{
 header li a:hover{
    color: #5937E0 !important; 
 }
+li{
+    list-style: none;
+}
 /*end header section */
 /*start hero section */
 .hero .hero-form{
