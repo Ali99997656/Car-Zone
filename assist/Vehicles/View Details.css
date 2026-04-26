@@ -1,155 +1,205 @@
 header {
-  padding: 28px 0;
+    padding: 28px 0;
 }
+
 header .img {
-  width: 180px;
-  height: 40px;
+    width: 180px;
+    height: 40px;
 }
+
 header nav {
-  font-size: 18px;
-  font-family: Inter;
+    font-size: 18px;
+    font-family: Inter;
 }
+
 header svg {
-  color: #5937e0;
-  width: 40px;
-  height: 40px;
+    color: #5937e0;
+    width: 40px;
+    height: 40px;
 }
-header li a{
+
+.scrolled {
+    background-color: #7c7878;
+    padding: 10px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header li a {
     transition: all 0.2s 0.2s !important;
 }
-header li a:hover{
-   color: #5937E0 !important; 
+
+header li a:hover {
+    color: #5937E0 !important;
 }
-li{
+
+li {
     list-style: none;
 }
+
+
 /*start hero section*/
+
 .hero {
-  font-family: Work sans;
+    font-family: Work sans;
 }
+
 .detailes .type {
-  font-size: 40px;
-  font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
 }
+
 .detailes .price {
-  font-size: 40px;
-  color: #5937e0;
+    font-size: 40px;
+    color: #5937e0;
 }
+
 .detailes span {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
 }
+
 .detailes .car {
-  width: -webkit-fill-available;
+    width: -webkit-fill-available;
 }
 
 .title {
-  font-size: 24px;
-  font-weight: 700;
+    font-size: 24px;
+    font-weight: 700;
 }
+
 .card {
-  background-color: #fafafa;
-  border: none;
-  outline: none;
+    background-color: #fafafa;
+    border: none;
+    outline: none;
 }
+
 .card img {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 }
+
 .card p {
-  font-size: 16px;
-  font-weight: 700;
+    font-size: 16px;
+    font-weight: 700;
 }
+
 .card span {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .CarEquipment button {
-  padding: 15.5px 106px;
-  background-color: #5937e0;
+    padding: 15.5px 106px;
+    background-color: #5937e0;
 }
+
 .more-detailes .Car {
-  font-size: 24px;
-  font-weight: 700;
-  padding: 40px 0;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 40px 0;
 }
+
 .more-detailes img {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 }
-.frame p{
+
+.frame p {
     font-size: 16px;
-  color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
+
+
 /*end hero section*/
+
+
 /*start cars section*/
-.cars .cards{
+
+.cars .cards {
     background-color: #f7f7f7;
-    padding: 24px; 
+    padding: 24px;
     flex-grow: 1;
 }
-.cars .imge img{
+
+.cars .imge img {
     width: -webkit-fill-available;
     height: 260px;
 }
+
 .cars button {
     background-color: #5937E0;
 }
-.cars .text{
-text-decoration: none;
-}
-.cars .cards a{
-  background-color:#5937E0;
-  color: #ffffff;
- transition: all 0.2s 0.2s !important;
+
+.cars .text {
+    text-decoration: none;
 }
 
-.cards a:hover{
-  background-color:  #09002e !important; 
+.cars .cards a {
+    background-color: #5937E0;
+    color: #ffffff;
+    transition: all 0.2s 0.2s !important;
 }
+
+.cards a:hover {
+    background-color: #09002e !important;
+}
+
+
 /*end cars section*/
+
+
 /*start footer sectioin*/
-.col .icon{
+
+.col .icon {
     background-color: #ffb100;
     height: 40px;
     width: 40px;
     text-align: center;
-    padding-top: 5px ;
+    padding-top: 5px;
 }
-.footer span{
+
+.footer span {
     font-size: 15px;
     font-family: Work sans;
 }
-.footer address{
+
+.footer address {
     font-size: 16px;
     font-family: Work sans;
-    font-weight:bold ;
+    font-weight: bold;
 }
-.footer p{
+
+.footer p {
     font-size: 16px;
     font-family: Work sans;
-    font-weight:bold ;
+    font-weight: bold;
 }
-.footer ul{
+
+.footer ul {
     padding: 0;
     margin: 0;
 }
-.footer h2{
+
+.footer h2 {
     font-family: Work sans;
     font-size: 20px;
     font-weight: bold;
 }
-.footer li{
+
+.footer li {
     font-family: Work sans;
     font-size: 16px;
 }
-.footer a{
+
+.footer a {
     text-decoration: none;
     color: #5937E0;
     transition: all 0.3s !important;
 }
-.footer a:hover{
+
+.footer a:hover {
     color: #09002e !important;
 }
+
+
 /*end footer sectioin*/

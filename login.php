@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
 
-    <div class="container-fluid p-0">
+    <div class="login container-fluid p-0">
         <div class="row g-0 align-items-center">
             <div class="col-md-6">
                 <img src="assist/login/0b347e105d353eae4c7b063b0da73eddb78c3a89.png" class="img-side" alt="NFT Artwork">

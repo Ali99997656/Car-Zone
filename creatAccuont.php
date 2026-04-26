@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 $servername = "localhost";
 $username_db = "root";
 $password_db = "";
@@ -13,28 +15,24 @@ if (!$conn) {
 
 $message = "";
 
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $user = $_POST['username'];
-    $email = $_POST['email'];
+    $user = mysqli_real_escape_string($conn, $_POST['username']); 
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
     $pass = $_POST['password'];
     $confirm_pass = $_POST['confirm_password'];
 
     if ($pass !== $confirm_pass) {
         $message = "<div class='alert alert-danger'>Passwords do not match!</div>";
     } else {
-        
         $hashed_password = password_hash($pass, PASSWORD_DEFAULT);
         
         $sql = "INSERT INTO users (username, email, password) VALUES ('$user', '$email', '$hashed_password')";
         
         if (mysqli_query($conn, $sql)) {
-           
-            session_start();
             $_SESSION['user_id'] = mysqli_insert_id($conn); 
             $_SESSION['username'] = $user;
 
-            header("Location:index.php");
+            header("Location: index.php");
             exit(); 
         } else {
             $message = "<div class='alert alert-danger'>Error: " . mysqli_error($conn) . "</div>";
@@ -55,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
 
-    <div class="container-fluid p-0">
+    <div class="login container-fluid p-0">
         <div class="row g-0 align-items-center">
             <div class="col-md-6">
                 <img src="assist/login/0b347e105d353eae4c7b063b0da73eddb78c3a89.png" class="img-side" alt="NFT Artwork">
@@ -68,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                     <?php echo $message; ?>
 
-                    <form action="signup.php" method="POST">
+                    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
                         <div class="mb-3 position-relative">
                             <span class="input-group-text"><i class="fa-regular fa-user"></i></span>
                             <input type="text" name="username" class="form-control" placeholder="Username" required>

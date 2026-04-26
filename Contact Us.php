@@ -17,70 +17,10 @@
     
   <!--main css-->
   <link rel="stylesheet" href="assist/Contact Us/Contact Us.css" />
+  <link rel="stylesheet" href="assist/js/js.js">
 </head>
 <body>
-  <header class="header position-sticky z-3 top-0 w-100 mt-1">
-    <div class="container">
-      <div class="flex-lg-nowrap d-flex justify-content-between">
-        <a href="index.html">
-          <img class="img" src="assist/heder section/Logo.webp" alt="Car Zone" /></a>
-        <nav class="nav">
-          <ul class="nav d-none d-lg-flex d-xl-flex d-xxl-flex justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link text-black" aria-current="page" href="index.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-black" href="Vehicles.php">Vehicles</a>
-            </li>
-       
-            <li class="nav-item">
-              <a class="nav-link text-black" href="aboutus.php">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-danger" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item">
-    <a class="nav-link text-black" href="meeting us.php">Meeting Us</a>
-</li>
-          </ul>
-        </nav>
-        <img class="img d-none d-lg-block d-xl-block d-xxl-block" src="assist/heder section/Icons+ text.webp" alt="Phone" />
-     
-  <button  class="d-block d-lg-none d-xl-none d-xxl-none btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><svg class=" ms-auto d-block d-lg-none d-xl-none d-xxl-n" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-          <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-          <path fill="#5937E0"
-            d="M40 48C26.7 48 16 58.7 16 72l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L40 48zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 64zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zM16 232l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0z" />
-        </svg></button>
-
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div class="offcanvas-header">
-     
-          <ul class="d-flex flex-column  justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link text-black" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-black" href="Vehicles.html">Vehicles</a>
-            </li>
-       
-            <li class="nav-item">
-              <a class="nav-link text-black" href="aboutus.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-danger" href="Contact Us.html">Contact Us</a>
-            </li>
-          </ul>
-       
-  </div>
-    <div>
-    <img src="assist/Logo.png" alt="logo">
-  </div>
- 
-</div>
-      
-      </div>
-    </div>
-  </header>
+<?php include('includes/header.php'); ?>
   <section class="Breadcrumb p-5">
     <div class="container">
       <div class="text-center lh-1">
@@ -232,4 +172,5 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+    <script  src="assist/js/js.js"/>
 </body>

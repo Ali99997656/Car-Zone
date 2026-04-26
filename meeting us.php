@@ -42,35 +42,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <title>Meeting Us - Car Zone</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="assist/aboutus/AboutUs.css" />
-  <style>
-    .form-box { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
-    .btn-book { background-color: #5937E0; color: white; border: none; padding: 12px; }
-  </style>
+  <link rel="stylesheet" href="assist/meet/meet.css" />
+  
 </head>
 <body>
 
  
- <header class="header position-sticky z-3 top-0 w-100 mt-1">
-    <div class="container">
-      <div class="flex-lg-nowrap d-flex justify-content-between align-items-center">
-        <a href="index.php">
-          <img class="img" src="assist/heder section/Logo.webp" alt="Car Zone" />
-        </a>
-        <nav class="nav d-none d-lg-block">
-          <ul class="nav justify-content-end">
-            <li class="nav-item"><a class="nav-link text-black" href="index.php">Home</a></li>
-            <li class="nav-item"><a class="nav-link text-black" href="Vehicles.php">Vehicles</a></li>
-            <li class="nav-item"><a class="nav-link text-black" href="aboutus.php">About Us</a></li>
-            <li class="nav-item"><a class="nav-link text-black" href="Contact Us.php">Contact Us</a></li>
-            <li class="nav-item">
-    <a class="nav-link text-danger" href="meeting us.php">Meeting Us</a>
-</li>
-          </ul>
-        </nav>
-        <img class="img d-none d-lg-block" src="assist/heder section/Icons+ text.webp" alt="Phone" />
-      </div>
-    </div>
-</header>
+ <?php include('includes/header.php'); ?>
+
+
 
   <section class="text-center py-5 bg-light">
     <div class="container">
@@ -124,7 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         include('includes/footer.php'); 
     }
   ?>
-
+ <script  src="assist/js/js.js"/>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
